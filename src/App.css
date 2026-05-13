@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Story+Script&display=swap');
+body{
+    font-family: "Story Script", sans-serif;
+}
+.title{
+     font-family: "Great Vibes", cursive;
+     text-shadow: rgb(0, 0, 0)  2px 2px;
+}
+.text-overflow1{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+.scroll{
+        scroll-margin-top: 80px;
+}
