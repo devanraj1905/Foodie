@@ -6,16 +6,14 @@ export function Search() {
   const [search, setSearch] = useState("")
   const [meal, setMeal] = useState([])
   useEffect(() => {
-    if (search.trim === "") {
+    if (search.trim() === "") {
       setMeal([])
     }
     axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
       .then(res => setMeal(res.data.meals || []))
-      .catch(err => console.log(err1
-
+      .catch(err => console.log(err)
       )
-      )
-  })
+  },[search])
 
   return (
     <div className='bg-gray-200 pt-25 '>

@@ -3,7 +3,7 @@ import img from '/src/assets/rest.jpg'
 import axios from 'axios'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 export function CategoryMeals() {
-  const {id}=useParams
+ 
   
 
   const [food, setFood] = useState([])

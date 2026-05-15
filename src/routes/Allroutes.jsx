@@ -13,7 +13,7 @@ export function Allroutes() {
       <Route path='/' element={<><Header/><Hero/><CategoryMeals/></>} />
       <Route path='/category/:name' element={<><Header/><Card/></>}/>
       <Route path='/meal/:id' element={<><Header/><Details/></>} />
-      <Route path='/search' element={<><Header/><Search/><Footer/></>} />
+      <Route path='/search' element={<><Header/><Search/></>} />
       <Route path='*' element={<PageNotFound/>} />
    
 

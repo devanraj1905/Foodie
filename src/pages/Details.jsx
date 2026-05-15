@@ -63,7 +63,9 @@ export function Details() {
             </tbody>
           </table>
 
-          <a href="https://www.youtube.com/watch?v=_gFB1fkNhXs" target='_blank' className='text-blue-600'>Youtube Link : {card.strYoutube}</a>
+          <a href={card.strYoutube
+            
+          } target='_blank' className='text-blue-600'>Youtube Link : {card.strYoutube}</a>
 
 
         </div>
