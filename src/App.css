@@ -16,3 +16,17 @@ body{
 .scroll{
         scroll-margin-top: 80px;
 }
+.slider {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.slider::-webkit-scrollbar{
+        display: none;
+}
+
+
+.slider:hover {
+  animation-play-state: paused;
+}
+
